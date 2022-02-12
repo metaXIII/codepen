@@ -1,0 +1,61 @@
+@keyframes blink {
+    0% {
+        background: violet;
+    }
+    15% {
+        background: indigo;
+    }
+    30% {
+        background: blue;
+    }
+    42% {
+        background: green;
+    }
+    58% {
+        background: yellow;
+    }
+    70% {
+        background: orange;
+    }
+    85% {
+        background: red;
+    }
+    1000% {
+        background: violet;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        background: violet;
+    }
+    15% {
+        background: indigo;
+    }
+    30% {
+        background: blue;
+    }
+    42% {
+        background: green;
+    }
+    58% {
+        background: yellow;
+    }
+    70% {
+        background: orange;
+    }
+    85% {
+        background: red;
+    }
+    1000% {
+        background: violet;
+    }
+}
+
+div {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    animation: blink 10s infinite;
+    -webkit-animation: blink 10s infinite;
+}
