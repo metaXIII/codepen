@@ -5,4 +5,5 @@ Public Repo for codepen projects
 
 - [Blend mode](Blend%20Mode)
 - [Clipping](Clipping)
+- [Fonts](Google%20Fonts)
 - [Reflection](Reflection)
